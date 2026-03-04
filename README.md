@@ -13,11 +13,11 @@ ___
 <pre>const gravedad = 9,807</pre>
 Dato importante para las `variables` y `constantes`, uno puede definir el tipo de dato que debe ser la variable o la constante
 <pre>const esVerdad:bool = true</pre>
----
+
 
 `#` es para hacer comentarios
 <pre>#Esto es un comentario :O</pre>
----
+
 
 `func` es para crear una funcion
 <pre>
@@ -29,7 +29,7 @@ Dato, godot permite declarar de que tipo es el dato que queremos retornar
 func sumar(a, b) -> Int:
     return a + b
 </pre>
----
+
 
 `if/else/elif` condicionales
 <pre>
@@ -40,7 +40,7 @@ elif contador == 1:
 else:
     print("Ninguna es verdadera")
 </pre>
----
+
 ___
 ## Funciones basicas de Godot
 `_ready` Se ejecuta en el primer frame
@@ -54,3 +54,7 @@ func _ready() -> void:
 func _physics_process(delta: float) -> void:
     print("Hola soy un frame :D")
 </pre>
+`get_tree()` Obtiene la rama actual, esta funcion posee mas funciones internas
+* `.quit()` Sirve para cerrar el nodo
+* `.change_scene_to_file("ruta/a/nodo.tscn")` Cambia el nodo/escena actual, a un nodo/escena necesitado colocando una ruta
+
