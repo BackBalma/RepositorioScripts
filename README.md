@@ -1,9 +1,12 @@
 # Repositorio de Script Club de Videojuegos
 ## Contenidos
 [Ir a fundamentos de Godot](#fundamentos-de-godot)
+[Ir a funciones integradas](#funciones-basicas-de-godot)
+[Ir a Singleton](#singleton)
 ## Estuctura del Repositorio
 [Carpeta de Movimiento](Movimiento/)
 [Carpeta de Maquina de estado](MaquinaDeEstados/)
+[Carpeta de Singleton's](SingletonIdeas/)
 ___
 ## Fundamentos de Godot
 `var` es para declarar una variable
@@ -57,4 +60,5 @@ func _physics_process(delta: float) -> void:
 `get_tree()` Obtiene la rama actual, esta funcion posee mas funciones internas
 * `.quit()` Sirve para cerrar el nodo
 * `.change_scene_to_file("ruta/a/nodo.tscn")` Cambia el nodo/escena actual, a un nodo/escena necesitado colocando una ruta
-
+___
+## Singleton

@@ -1,0 +1,29 @@
+[
+	{
+		"aficiones": [
+			"El mismo",
+			"Coleccionar corbatas"
+		],
+		"nombre": "Tulio Triviño",
+		"serie": "31 minutos",
+		"trabajo": "Periodista"
+	},
+	{
+		"aficiones": [
+			"Las carreras",
+			"Hacer reportajes"
+		],
+		"nombre": "Juan Carlos Bodoque",
+		"serie": "31 minutos",
+		"trabajo": "Periodista"
+	},
+	{
+		"aficiones": [
+			"Colleccionar estampillar",
+			"Trabajar"
+		],
+		"nombre": "Juanín Juan Harry",
+		"serie": "31 minutos",
+		"trabajo": "Productor"
+	}
+]
